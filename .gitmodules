@@ -1,0 +1,3 @@
+[submodule "freenom-script"]
+	path = freenom-script
+	url = https://github.com/mkorthof/freenom-script
