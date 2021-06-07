@@ -1,15 +1,19 @@
-FROM alpine:latest
+FROM node:16-alpine
 
 RUN apk add bash curl coreutils
 
 WORKDIR /app
 
-COPY freenom-script/freenom.sh .
+COPY package.json ./
+
+RUN npm install
+
+COPY app.js freenom-script/freenom.sh ./
 
 ARG FREENOM_EMAIL
 ARG FREENOM_PASSWORD
-RUN echo -e "freenom_email=\"$FREENOM_EMAIL\"\n\
+RUN printf "freenom_email=\"$FREENOM_EMAIL\"\n\
 freenom_passwd=\"$FREENOM_PASSWORD\"\n\
 " > freenom.conf
 
-ENTRYPOINT [ "./freenom.sh" ]
+ENTRYPOINT [ "npm", "start" ]
