@@ -1,12 +1,6 @@
-# ARCHIVE NOTICE
-
-I don't plan to use or support the use of Freenom anymore, since it is a scammy company. There are a multitude of reasons to not use this registrar. Invest in a paid domain.
-
----
+### ⚠️ Archived - Freenom no longer works. In addition, free TLDs, if they even still exist, are usually blacklisted for fraud prevention. Please use a [free subdomain](https://freedns.afraid.org/) or a [paid domain](https://porkbun.com/).
 
 ### `freenom-docker`, a wrapper for `freenom-script` intended for use with cloud providers.
-
----
 
 **Usage**:
 
