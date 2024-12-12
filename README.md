@@ -1,4 +1,4 @@
-### ⚠️ Archived - Freenom no longer works. In addition, free TLDs, if they even still exist, are usually blacklisted for fraud prevention. Please use a [free subdomain](https://freedns.afraid.org/) or a [paid domain](https://porkbun.com/).
+### ⚠️ Archived - Freenom no longer works. In addition, free TLDs, if they even still exist, are usually blacklisted for fraud prevention. Please use a [free subdomain](https://freedns.afraid.org/) or a [paid domain](https://porkbun.com/) instead.
 
 ### `freenom-docker`, a wrapper for `freenom-script` intended for use with cloud providers.
 
